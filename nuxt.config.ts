@@ -4,7 +4,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
 
   alias: {
-    "@": resolve(__dirname, "/"),
+    // "@": resolve(__dirname, "/"),
+    assets: "/<rootDir>/assets",
   },
 
   css: ["~/assets/main.scss"],
@@ -16,5 +17,5 @@ export default defineNuxtConfig({
     },
   },
 
-  modules: ["@nuxtjs/tailwindcss"]
+  modules: ["@nuxtjs/tailwindcss"],
 });
