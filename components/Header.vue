@@ -1,13 +1,7 @@
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
-    <div>
-        Header
-    </div>
+  <div class="Header">Header</div>
 </template>
 
-<style scoped>
-
-</style>
+<style lang="scss"></style>
